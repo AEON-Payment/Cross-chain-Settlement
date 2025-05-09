@@ -1,13 +1,15 @@
 # Cross-chain-Settlement
 AEON enables users to pay with assets on one chain (e.g., SOL) and settle transactions on another (e.g., purchasing BNB Chain memecoins), ensuring seamless, transparent, and secure settlement across chains.
 
-## Introduction
+## API Integration
+
+### Introduction
 
 The merchant calls up a checkout counter, and the user pays with cryptocurrency. After the user pays with cryptocurrency at the front end, we send order information via webhook.
 
 Merchant can check more details at the merchant dashboard.
 
-## Quick Start
+### Quick Start
 
 Before starting integration, you need to obtain the customerNum and secret for technical integration. Please contact our business team to obtain the appid and secret for the production environment.
 
@@ -15,12 +17,12 @@ Before obtaining your production environment account, you can integrate with our
 
 Please contact us for sandbox environment account.
 
-## Environmental Information
+### Environmental Information
 
 Sandbox Environment:`https://sbx-crypto-payment-api.aeon.xyz`  
 Production Environment: `https://crypto-payment-api.aeon.xyz`
 
-## Merchant Configuration
+### Merchant Configuration
 
 These information should be given for configuration.
 
@@ -43,7 +45,7 @@ These information should be given for configuration.
 
 
 
-## Supported payCurrency:
+### Supported payCurrency:
 
 Please contact us for configuration.
 
@@ -57,7 +59,7 @@ Please contact us for configuration.
 | VND              | integer                                                                               | 1000       |
 | Token Name(USDT) | The token used for unit configured, 8 non-zero decimal places after the decimal point | 1.12345678 |
 
-## Refund Rules for Orders
+### Refund Rules for Orders
 
 The following four situations will trigger the automatic refund process on AEON page.
 
