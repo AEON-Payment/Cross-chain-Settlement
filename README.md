@@ -312,5 +312,3 @@ func main() {
 	fmt.Println("Response:", string(body))
 }
 ```
-
-Create Order
